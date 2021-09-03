@@ -35,6 +35,7 @@
   border-bottom-right-radius: 10px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .search_icon img {
