@@ -5,18 +5,18 @@
     "main.js.map": "/ip_tracker/static/js/main.b9bdd976.chunk.js.map",
     "runtime-main.js": "/ip_tracker/static/js/runtime-main.a665ea7c.js",
     "runtime-main.js.map": "/ip_tracker/static/js/runtime-main.a665ea7c.js.map",
-    "static/js/2.d4db4a53.chunk.js": "/ip_tracker/static/js/2.d4db4a53.chunk.js",
-    "static/js/2.d4db4a53.chunk.js.map": "/ip_tracker/static/js/2.d4db4a53.chunk.js.map",
+    "static/js/2.3c68e3a1.chunk.js": "/ip_tracker/static/js/2.3c68e3a1.chunk.js",
+    "static/js/2.3c68e3a1.chunk.js.map": "/ip_tracker/static/js/2.3c68e3a1.chunk.js.map",
     "index.html": "/ip_tracker/index.html",
     "static/css/main.4aa8506f.chunk.css.map": "/ip_tracker/static/css/main.4aa8506f.chunk.css.map",
-    "static/js/2.d4db4a53.chunk.js.LICENSE.txt": "/ip_tracker/static/js/2.d4db4a53.chunk.js.LICENSE.txt",
+    "static/js/2.3c68e3a1.chunk.js.LICENSE.txt": "/ip_tracker/static/js/2.3c68e3a1.chunk.js.LICENSE.txt",
     "static/media/icon-arrow.2eaaa5ee.svg": "/ip_tracker/static/media/icon-arrow.2eaaa5ee.svg",
     "static/media/icon-location.7e6459d2.svg": "/ip_tracker/static/media/icon-location.7e6459d2.svg",
     "static/media/Header.module.css": "/ip_tracker/static/media/pattern-bg.a60a3c85.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a665ea7c.js",
-    "static/js/2.d4db4a53.chunk.js",
+    "static/js/2.3c68e3a1.chunk.js",
     "static/css/main.4aa8506f.chunk.css",
     "static/js/main.b9bdd976.chunk.js"
   ]
