@@ -1,6 +1,6 @@
 import firebase from "firebase"
 const firebaseConfig = {
-  apiKey: "AIzaSyCipaK0ws9kOY6g_RnLcQgPowNcX6L0wrk",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "iptracker-34f53.firebaseapp.com",
   projectId: "iptracker-34f53",
   storageBucket: "iptracker-34f53.appspot.com",

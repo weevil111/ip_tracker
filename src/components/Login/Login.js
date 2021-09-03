@@ -13,11 +13,10 @@ const Login = ({setUser}) => {
     .catch((err) => console.log("An error occured ",err));
     setUser(payload)
   }
-
   const sawoConfig = {
     onSuccess: sawoLoginCallback, 
     identifierType: 'email', 
-    apiKey: 'e27b73f7-3045-4e48-a75e-5fea653a7d09',
+    apiKey: process.env.REACT_APP_SAWO_API_KEY,
     containerHeight: '230px',
   }
 
