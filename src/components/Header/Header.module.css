@@ -1,0 +1,40 @@
+.container {
+  background-image: url(../../assets/pattern-bg.png);
+  width: 100vw;
+  height: 37vh;
+}
+
+.heading {
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.input_container {
+  display: flex;
+  justify-content: center;
+}
+
+.input_container > input {
+  height: 100%;
+  padding: 8px;
+  min-width: 60vw;
+  outline: none;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.search_icon {
+  background-color: hsl(0, 0%, 17%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search_icon img {
+  height: 10px;
+  padding: 0 10px;
+}
