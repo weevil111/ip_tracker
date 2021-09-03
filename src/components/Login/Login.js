@@ -17,7 +17,7 @@ const Login = ({setUser}) => {
   const sawoConfig = {
     onSuccess: sawoLoginCallback, 
     identifierType: 'email', 
-    apiKey: 'fa4f63cc-2ab3-4c58-a664-0314d52cbaeb',
+    apiKey: 'e27b73f7-3045-4e48-a75e-5fea653a7d09',
     containerHeight: '230px',
   }
 
