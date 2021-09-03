@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./Header.module.css";
 import arrow from "../../assets/icon-arrow.svg"
+import Information from '../Information/Information';
 function Header() {
   return (
     <div className={styles.container}>
@@ -14,6 +15,7 @@ function Header() {
           <img src={arrow} />
         </div>
       </div>
+      <Information></Information>
     </div>
   )
 }
