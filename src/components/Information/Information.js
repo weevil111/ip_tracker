@@ -15,7 +15,7 @@ function Information({ipInfo}) {
           <hr />
         <div className={styles.info_container}>
           <div className={styles.title}>LOCATION</div>
-          <div className={styles.info}>{ipInfo.location?.city} <br></br>{ipInfo.location?.postalCode}</div>
+          <div className={styles.info}>{ipInfo.location.city} <br></br>{ipInfo.location.postalCode}</div>
         </div>
           <hr />
         <div className={styles.info_container}>

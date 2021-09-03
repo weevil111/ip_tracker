@@ -51,10 +51,16 @@ function App() {
     })
   },[ip])
 
+  let lat = null;
+  let lng = null;
+  if(ipInfo && ipInfo.location){
+    lat = ipInfo.location.lat;
+    lng = ipInfo.location.lng;
+  }
   return (
     <div className="App">
       <Header ip={ip} ipInfo={ipInfo} setIp={setIp}></Header>
-      <Map latitude={ipInfo?.location?.lat} longitude={ipInfo?.location?.lng}></Map>
+      <Map latitude={lat} longitude={lng}></Map>
     </div>
   );
 }
