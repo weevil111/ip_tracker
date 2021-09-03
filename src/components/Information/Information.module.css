@@ -38,3 +38,21 @@
   padding-top: 8px;
   font-weight: 700;
 }
+
+@media only screen and (max-width: 600px) {
+  .inner_container{
+    display: block;
+    height: fit-content;
+    text-align: center;
+  }
+  .inner_container hr{
+    display: none;
+  }
+  .info_container{
+    display: block;
+    padding: 10px;
+  }
+  .outer_container{
+    bottom: 6vh;
+  }
+}

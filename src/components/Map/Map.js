@@ -24,6 +24,7 @@ function Map({latitude=0, longitude=0}) {
       center={position}
       zoom={13}
       style={{ height: "64vh" }}
+      zoomControl={false}
     >
       <TileLayer
         attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
